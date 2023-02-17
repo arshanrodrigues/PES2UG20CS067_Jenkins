@@ -10,7 +10,7 @@ pipeline  {
     stage('Test'){
       steps {
         sh './hello_exec'
-        echo 'Test Stage Successful'
+        eco 'Test Stage Successful'
       }
     }
     stage('Deploy'){
